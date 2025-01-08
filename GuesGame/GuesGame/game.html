@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <div class="game_container">
+        <div class="game-input">
+
+
+            <h1>Guess the number</h1>
+            <div class="form-section">
+                <input type="number" id="start" placeholder="Start">
+                <input type="number" id="end" placeholder="End">
+                <button class="button-generate" onclick="generateRandom()"> Generate</button>
+            </div>
+        </div>
+        <p class="message" id="intro">Please Enter the Range and Press the Generate button to Generate
+             a Random Number. <br>  Enter your number below and press Guess button </p>
+
+        <div class="game-output">
+            <input type="number" id="inputNumber" placeholder="Your Number">
+            <button class="button-guess" onclick="guessNumber()"> Guess</button>
+
+            <p class="message" id="error-message"></p>
+            <p class="message" id="near-message"></p>
+
+        </div>
+
+        <p class="message" id="success-message"></p>
+
+        <p class="message" id="guess-error-message"></p>
+
+
+
+
+        <script src="game1.js"></script>
+    </div>
+</body>
+</html>

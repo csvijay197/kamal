@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7faff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #28282b;
+}
+
+.game-input {
+  margin: 150px auto 30px auto;
+  padding: 20px;
+  max-width: 400px;
+  background-color: whitesmoke;
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.game-output{
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 400px;
+  background-color: whitesmoke;
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="number"] {
+  width: 100px;
+  padding: 8px;
+  font-size: 16px;
+  border: 2px solid #cbd5e0;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+#intro{
+    font-style: italic;
+    color:whitesmoke  ;
+}
+
+#success-message{
+  font-style: oblique;
+  color: lightgreen;
+}
+
+#error-message{
+  font-style: oblique;
+  color: gray;
+}
+#near-message{
+  font-style: oblique;
+  color: gray;
+}
+
+#guess-error-message{
+
+  font-style: normal;
+  color: red;
+}
+
+
+button {
+  background-color: #5b9bf3;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3a82e3;
+}
+
+button:disabled {
+  background-color: #d1dfe9;
+  cursor: not-allowed;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+ -webkit-appearance: none;
+ margin: 0;
+}
